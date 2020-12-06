@@ -39,7 +39,7 @@ Yii::setAlias('@runnerScript', dirname(__DIR__) .'/yii');
 ```
 'controllerMap' => [
        'cron' => [
-           'class' => 'denisog\cronjobs\CronController'
+           'class' => 'dantart\cronjobs\CronController'
        ],
    ],
 ```
